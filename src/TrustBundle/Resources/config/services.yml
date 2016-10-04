@@ -1,0 +1,33 @@
+services:
+    app.admin.segment:
+        class: TrustBundle\Admin\SegmentAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Trust Info", label: "Segmentos" }
+        arguments:
+            - ~
+            - TrustBundle\Entity\Segment
+            - ~
+        calls:
+            - [ setTranslationDomain, [TrustBundle]]
+            
+    app.admin.question:
+        class: TrustBundle\Admin\QuestionAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Trust Info", label: "Preguntas" }
+        arguments:
+            - ~
+            - TrustBundle\Entity\Question
+            - ~
+        calls:
+            - [ setTranslationDomain, [TrustBundle]]
+            
+    app.admin.user:
+        class: TrustBundle\Admin\UserAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Trust Usuarios", label: "Usuarios" }
+        arguments:
+            - ~
+            - TrustBundle\Entity\User
+            - ~
+        calls:
+            - [ setTranslationDomain, [TrustBundle]]

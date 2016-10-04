@@ -1,0 +1,24 @@
+services:
+
+sonata_admin:
+    dashboard:
+        groups:
+#            app.admin.group.trust-info:
+#                label: "Crear Segmento"
+#                label_catalogue: TrustBundle
+#                items:
+#                    - app.admin.segment
+                    
+#            app.admin.group.trust-info:
+#                label: "Crear Pregunta"
+#                label_catalogue: TrustBundle
+#                items:
+#                    - app.admin.question
+            
+#            app.admin.group.trust-usuarios:
+#                label: "Usuarios"
+#                label_catalogue: TrustBundle
+#                items:
+#                    - app.admin.user
+
+#            app.admin.group.misc: ~            

@@ -1,0 +1,27 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/book/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+#    app.admin.segment:
+#        class: TrustBundle\Admin\SegmentAdmin
+#        tags:
+#            - { name: sonata.admin, manager_type: orm, group: "Trust", label: "Agregar Segmento" }
+#        arguments:
+#            - ~
+#            - TrustBundle\Entity\Segment
+#            - ~
+#        calls:
+#            - [ setTranslationDomain, [TrustBundle]]
+#
+#    app.admin.question:
+#        class: TrustBundle\Admin\QuestionAdmin
+#        tags:
+#            - { name: sonata.admin, manager_type: orm, group: "Trust", label: "Crear Pregunta" }
+#        arguments:
+#            - ~
+#            - TrustBundle\Entity\Question
+#            - ~
+#        calls:
+#            - [ setTranslationDomain, [TrustBundle]]
