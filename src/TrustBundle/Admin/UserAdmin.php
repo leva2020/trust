@@ -12,10 +12,10 @@ class UserAdmin extends Admin {
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper) {
         $formMapper
-                ->add('id', 'text', array('label' => 'Id'))               
+                ->add('id', 'text', array('label' => 'Id'))
                 ->add('username', 'text', array('label' => 'User Name'))               
-                ->add('email', 'text', array('label' => 'Correo'))               
-                ->add('roles', 'text', array('label' => 'Roles'))               
+                ->add('email', 'text', array('label' => 'Correo'))
+                ->add('roles', 'text', array('label' => 'Roles'))
         ;
     }
 

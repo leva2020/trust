@@ -9,7 +9,7 @@ services:
             - ~
         calls:
             - [ setTranslationDomain, [TrustBundle]]
-            
+
     app.admin.question:
         class: TrustBundle\Admin\QuestionAdmin
         tags:
@@ -20,14 +20,14 @@ services:
             - ~
         calls:
             - [ setTranslationDomain, [TrustBundle]]
-            
+
     app.admin.user:
         class: TrustBundle\Admin\UserAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: "Trust Usuarios", label: "Usuarios" }
+            - { name: sonata.admin, manager_type: orm, group: "Quot Usuarios", label: "Usuarios" }
         arguments:
             - ~
             - TrustBundle\Entity\User
             - ~
-        calls:
-            - [ setTranslationDomain, [TrustBundle]]
+        #calls:
+        #    - [ setTranslationDomain, [TrustBundle]]

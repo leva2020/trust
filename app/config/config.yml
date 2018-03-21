@@ -82,13 +82,13 @@ sonata_admin:
     dashboard:
         groups:
             app.admin.group.trust-info:
-                label: "Agregar información"
+                label: "Administrar Compras"
                 label_catalogue: TrustBundle
                 items:
                     - app.admin.segment
                     - app.admin.question
             app.admin.group.trust-usuarios:
-                label: "Administrar Usuarios - Permisos"
+                label: "Administrar Usuarios"
                 label_catalogue: TrustBundle
                 items:
                     - app.admin.user
